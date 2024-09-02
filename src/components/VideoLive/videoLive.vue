@@ -159,8 +159,8 @@ export default {
   overflow: hidden; /* Ensure no overflow issues */
 }
 }
-
-@media (max-width: 768px) { /* Phones */
+ /* Phones */
+@media (max-width: 768px) {
   .button {
     width: 120px;
     height: 100px;
@@ -169,7 +169,7 @@ export default {
   }
 
   .video-container {
-    height: 50vh; /* Adjust for phone screens */
+    height: 38vh; 
   }
 
   .video-player {

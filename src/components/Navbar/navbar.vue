@@ -6,7 +6,7 @@
           <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white text-white">VET AIRWAY</span>
         </router-link>
         
-        <!-- Navbar Toggle Button -->
+
         <button
           @click="toggleMenu"
           type="button"
@@ -32,7 +32,7 @@
           </svg>
         </button>
   
-        <!-- Navbar Links -->
+   
         <div
           id="navbar-default"class="w-full md:w-auto":class="{ 'block': isMenuOpen, 'hidden': !isMenuOpen, 'md:block': true }"
         >
@@ -77,7 +77,7 @@
 .navbar{
   background-color: #330D69;
 }
-/* Inactive link style */
+
 .nav-link {
     color: white;
     padding: 0.5rem 1rem;
@@ -85,29 +85,22 @@
     transition: color 0.3s, background-color 0.3s;
 }
 
-/* Hover effect */
 .nav-link:hover {
-    /* background-color: #f3f4f6; */
-     /* Gray 100 */
      color: #DE5D0A;
 }
 
-/* Active link style */
 .active {
-    color: #DE5D0A; /* Blue 500 */
+    color: #DE5D0A; 
     background-color: transparent;
 }
 
-/* Dark mode inactive link style */
 .dark .nav-link {
-    color: #d1d5db; /* Gray 400 */
+    color: #d1d5db; 
 }
 
 .dark .nav-link:hover {
-    background-color: #1f2937; /* Gray 700 */
+    background-color: #1f2937;
 }
-/* .hidden {
-  display: none;
-} */
 
 </style>
+
