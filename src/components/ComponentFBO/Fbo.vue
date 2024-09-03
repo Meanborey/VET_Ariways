@@ -7,7 +7,7 @@
     <p class="text-2xl font-semibold inline-block after:content-[''] after:absolute after:w-full after:h-[3px] after:bg-[#DE5D0A] after:left-0 after:bottom-0 after:mt-1 absolute top-64 text-white">FBO</p>
 </div>
     <div>
-        <div class="text-center justify-center flex">
+        <div class="text-center justify-center flex pt-10">
             <div class="max-w-screen-sm">
                 <h1 class="text-4xl font-semibold">VET FBO</h1>
                 <p class="class_p">Would you like to buy your own aircraft but are not really sure of how to handle it all? We’d be glad to help.</p>

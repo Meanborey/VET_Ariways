@@ -11,7 +11,8 @@
     ></video> 
     
   </div>
-  <div class="flex justify-center text-center">
+  <!-- button on video -->
+  <!-- <div class="flex justify-center text-center">
     <div class="topbutton flex flex-wrap justify-center text-center absolute top-96">
         <router-link to="/seaplane-adventure" class="button">Seaplanes Adventure</router-link>
         <router-link to="/fligth-academy" class="button">Flight Academy</router-link>
@@ -19,13 +20,36 @@
         <router-link to="/fbo" class="button">FBO</router-link>
         <router-link to="/aircraft-sale" class="button relative bg-white">Aircraft Sale</router-link>
     </div>
-</div>
+</div> -->
+<!-- button under video -->
+<!-- <Button_b/> -->
+<!-- Buttons on video for tablet and laptop screens -->
 
-  </div>
+<div class="hidden sm:flex flex-wrap justify-center text-center absolute top-96 w-full">
+        <router-link to="/seaplane-adventure" class="button">Seaplanes Adventure</router-link>
+        <router-link to="/fligth-academy" class="button">Flight Academy</router-link>
+        <router-link to="/ari-taxi" class="button">Air Taxi</router-link>
+        <router-link to="/fbo" class="button">FBO</router-link>
+        <router-link to="/aircraft-sale" class="button relative bg-white">Aircraft Sale</router-link>
+      </div>
+    </div>
+
+    <!-- Buttons under video for phone screens -->
+    <div class="flex justify-center text-center sm:hidden mt-4">
+      <div class="grid grid-cols-2 gap-4">
+      <router-link to="/seaplane-adventure" class="button_under">Seaplanes Adventure</router-link>
+      <router-link to="/fligth-academy" class="button_under">Flight Academy</router-link>
+      <router-link to="/ari-taxi" class="button_under">Air Taxi</router-link>
+      <router-link to="/fbo" class="button_under">FBO</router-link>
+      <router-link to="/aircraft-sale" class="button_under relative bg-white">Aircraft Sale</router-link>
+      </div>
+    </div>
+  <!-- </div> -->
 </template>
 
 <script>
 import videoFile from '@/assets/Videos/VET Airways Fianl.mp4';
+import Button_b from './button.vue'
 
 export default {
   data() {
@@ -33,6 +57,9 @@ export default {
       video: videoFile,
     };
   },
+  components:{
+    Button_b
+  }
 };
 </script>
 
@@ -102,6 +129,24 @@ export default {
     transform: scale(1);
 }
 
+.button_under{
+    z-index: 3;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 200px;
+    background-color: #D9D9D9;
+    /* margin: 18px; */
+    border-radius: 8px;
+    font-weight: 600;
+    color: #DE5D0A;
+    font-size: 24px;
+    transition: all 0.3s ease;
+    transform: scale(1);
+}
+
 .button:hover {
   transform: scale(1.05);
 }
@@ -120,12 +165,20 @@ export default {
   .button {
     width: 100px;
     height: 100px;
-    font-size: 18px;
+    font-size: 14px;
     /* margin: 10px; */
   }
+  .video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  padding: 0;
+  overflow: hidden; /* Ensure no overflow issues */
 }
-
-@media (max-width: 768px) { /* Phones */
+}
+ /* Phones */
+@media (max-width: 768px) {
   .button {
     width: 120px;
     height: 100px;
@@ -134,7 +187,7 @@ export default {
   }
 
   .video-container {
-    height: 50vh; /* Adjust for phone screens */
+    height: 29vh; 
   }
 
   .video-player {
