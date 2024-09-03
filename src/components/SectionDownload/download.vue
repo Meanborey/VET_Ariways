@@ -7,7 +7,7 @@
         </div>
         <div class="px-6">
           <div>
-            <span class="text-xl">Download App</span>
+            <span class="xl:text-xl">Download App</span>
           </div>
           <div>
             <a
