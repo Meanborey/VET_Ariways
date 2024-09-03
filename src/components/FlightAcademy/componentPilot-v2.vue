@@ -1,7 +1,7 @@
 <template>
        <div>
         <div>
-        <img class="w-full h-[400px] bg-cover" src="../../assets/images/about.jpg"/>
+        <img class="w-full h-[400px] object-cover" src="../../assets/images/about.jpg"/>
         </div>
         <div class="flex justify-center items-center">
     <p class="text-2xl font-semibold inline-block after:content-[''] after:absolute after:w-full after:h-[3px] after:bg-[#DE5D0A] after:left-0 after:bottom-0 after:mt-1 absolute top-64 text-white">Flight Academy</p>

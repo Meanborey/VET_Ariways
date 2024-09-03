@@ -1,7 +1,7 @@
 <template>
     <div>   
         <div>
-        <img class="w-full h-[400px] bg-cover" src="../../assets/images/about.jpg"/>
+        <img class="w-full h-[400px] object-cover" src="../../assets/images/about.jpg"/>
         </div>
         <div class="flex justify-center items-center">
     <p class="text-2xl font-semibold inline-block after:content-[''] after:absolute after:w-full after:h-[3px] after:bg-[#DE5D0A] after:left-0 after:bottom-0 after:mt-1 absolute top-64 text-white">Flight Academy</p>
@@ -64,54 +64,56 @@
         <h2 class="text-sm font-semibold">What other resources are available?</h2>
         <p>First of all, we invite you to visit our campus for a personalized tour of our flight school. We encourage you to take a Discovery Flight Introductory Lesson. This lets you experience our flight instructors in action, and you can even log your flight time. Contact us today to meet, and we can schedule your firsthand look at our facilities and fleet.</p>
        </div>
-       <div class="grid grid-cols-2 gap-7 py-6">
-    <div class="">
-      <img class="w-full h-[345px] rounded-md" src="../../assets/images/Flight Academy1.jpg" alt="flightAcademy">
+       <div class="grid grid-cols-1 md:grid-cols-2 gap-7 py-6">
+  <div class="flex justify-center">
+    <img class="w-full h-[345px] rounded-md object-cover" src="../../assets/images/Flight Academy1.jpg" alt="flightAcademy">
+  </div>
+  <div class="col-span-1">
+    <div class="uppercase tracking-wide text-sm font-semibold">
+      The Commercial Pilot Programme Tailored to Your Needs
     </div>
-    <div class="col-span-1">
-      <div class="uppercase tracking-wide text-sm font-semibold">
-        The Commercial Pilot Programme Tailored to Your Needs
-      </div>
-      <p class="mt-2 text-gray-600">
-        The complete, personalized Integrated CPL /IR/ ME (frozen ATPL) Training Course.
-      </p>
-      <p class="mt-2 text-gray-600">
-        Our full package price from no experience to a professional ready to apply for your dream job with an airline.
-      </p>
-      <p class="mt-2 text-gray-600">
-        The airline pilot’s job requires precision and knowledge, but no exceptional skill or physical fitness. You will only need normal eyesight (with or without glasses) and good general health — and most importantly a strong drive and motivation to aim for the skies! If you have the motivation to become the best of the best, you are the person we are looking for!
-      </p>
-      <div class="mt-4 pt-12">
-        <router-link to="/pilot-v1" class="inline-block bg-[#DE5D0A] text-white px-14 py-3 text-sm font-semibold rounded-3xl shadow-md hover:bg-orange-700">
-          From $61,000
-        </router-link>
-      </div>
+    <p class="mt-2 text-gray-600">
+      The complete, personalized Integrated CPL /IR/ ME (frozen ATPL) Training Course.
+    </p>
+    <p class="mt-2 text-gray-600">
+      Our full package price from no experience to a professional ready to apply for your dream job with an airline.
+    </p>
+    <p class="mt-2 text-gray-600">
+      The airline pilot’s job requires precision and knowledge, but no exceptional skill or physical fitness. You will only need normal eyesight (with or without glasses) and good general health — and most importantly a strong drive and motivation to aim for the skies! If you have the motivation to become the best of the best, you are the person we are looking for!
+    </p>
+    <div class="mt-4">
+      <router-link to="/pilot-v1" class="inline-block bg-[#DE5D0A] text-white px-14 py-3 text-sm font-semibold rounded-3xl shadow-md hover:bg-orange-700">
+        From $61,000
+      </router-link>
     </div>
   </div>
-  <div class="grid grid-cols-2 gap-7 py-6">
-    <div class="">
-      <img class="w-full h-[345px] rounded-md" src="../../assets/images/Flight Academy1.jpg" alt="flightAcademy">
+</div>
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-7 py-6">
+  <div class="flex justify-center">
+    <img class="w-full h-[345px] rounded-md object-cover" src="../../assets/images/Flight Academy1.jpg" alt="flightAcademy">
+  </div>
+  <div class="col-span-1">
+    <div class="uppercase tracking-wide text-sm font-semibold">
+      PRIVATE PILOT LICENSE COURSE
     </div>
-    <div class="col-span-1">
-      <div class="uppercase tracking-wide text-sm font-semibold">
-        PRIVATE PILOT LICENSE COURSE
-      </div>
-      <p class="mt-2 text-gray-600">
-        The complete, personalized Integrated CPL /IR/ ME (frozen ATPL) Training Course.
-      </p>
-      <p class="mt-2 text-gray-600">
-        The private pilot licence is the course that any leisure pilot or someone flying their own business trips needs. It is your licence to fly for fun. No special skills, knowledge or physical fitness are required to become a private pilot—the medical requirements are similar to those for getting a driver’s licence.
-      </p>
-      <p class="mt-2 text-gray-600">
-        We will teach you from the very basics to the final skill test, both in theoretical knowledge and practical flight training. We train all our customers to the same standards, whether their final goal is professional or leisure flying. Your first licence...
-      </p>
-      <div class="mt-4 pt-12">
-        <router-link to="/pilot-v2" class="inline-block bg-[#DE5D0A] text-white px-14 py-3 text-sm font-semibold rounded-3xl shadow-md hover:bg-orange-700">
-            From $17,500
-        </router-link>
-      </div>
+    <p class="mt-2 text-gray-600">
+      The complete, personalized Integrated CPL /IR/ ME (frozen ATPL) Training Course.
+    </p>
+    <p class="mt-2 text-gray-600">
+      The private pilot licence is the course that any leisure pilot or someone flying their own business trips needs. It is your licence to fly for fun. No special skills, knowledge or physical fitness are required to become a private pilot—the medical requirements are similar to those for getting a driver’s licence.
+    </p>
+    <p class="mt-2 text-gray-600">
+      We will teach you from the very basics to the final skill test, both in theoretical knowledge and practical flight training. We train all our customers to the same standards, whether their final goal is professional or leisure flying. Your first licence...
+    </p>
+    <div class="mt-4">
+      <router-link to="/pilot-v2" class="inline-block bg-[#DE5D0A] text-white px-14 py-3 text-sm font-semibold rounded-3xl shadow-md hover:bg-orange-700">
+        From $17,500
+      </router-link>
     </div>
   </div>
+</div>
+
       </section>
     </div>
 </div>

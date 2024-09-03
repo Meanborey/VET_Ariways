@@ -1,7 +1,7 @@
 <template>
     <div>
 <div>
-    <img class="w-full h-[400px] bg-cover" src="../../assets/images/about.jpg"/>
+    <img class="w-full h-[400px] object-cover" src="../../assets/images/about.jpg"/>
     
 </div>
 <div class="flex justify-center items-center">

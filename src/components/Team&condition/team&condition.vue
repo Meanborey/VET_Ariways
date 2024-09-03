@@ -1,8 +1,8 @@
 <template>
     <div class="py-10">
         <div class="flex justify-center text-center">
-            <div class=" max-w-screen-xl grid flex-wrap grid-cols-9 gap-4 text-start"> 
-                <div class="col-span-5 p-3">
+            <div class="max-w-screen-xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-9 gap-4 text-start"> 
+                <div class="col-span-1 lg:col-span-5 p-3">
                 <h1 class="text-4xl font-semibold">Terms & <a class="text-[#DE5D0A]" >Conditions</a></h1>
                 <p class="py-3">Welcome to VET SEAPLANES! By accessing or using our seaplanes service, you agree to comply with and be bound by the following terms and conditions:</p>
                 <ul class="list-decimal pl-5 space-y-4">
@@ -87,9 +87,9 @@
                     <li>To reschedule a seaplane reservation: we require a 48hr notice. All cancellation and rescheduling requests need to be emailed and have a reply to be acknowledged.</li>
                     <li>Any rescheduling request with less than a 48hr notice will be charged $75 in order to reschedule or lose all funds.</li>
                 </ul>
-                            </div>
-                <div class=" col-span-4 pt-6">
-                    <img class="bg-[#E1E0E0]" src="../../assets/images/team.png"/>
+            </div>
+                <div class="col-span-1 lg:col-span-4 pt-6">
+                        <img class="w-full bg-[#E1E0E0]" src="../../assets/images/team.png" alt="Team Image"/>
                 </div>
             </div>
         </div>
