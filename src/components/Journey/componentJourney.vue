@@ -1,7 +1,7 @@
 <template>
     <div>
         <div>
-            <img class="w-full h-[400px] object-cover" src="@/assets/images/about.jpg"/>
+            <img class="w-full h-[400px] object-cover" src="../../assets/images/The Journey cover.jpg"/>
         </div> 
         <div class="flex justify-center items-center">
     <p class="text-2xl font-semibold inline-block after:content-[''] after:absolute after:w-full after:h-[3px] after:bg-[#DE5D0A] after:left-0 after:bottom-0 after:mt-1 absolute top-64 text-white">The Journey</p>
@@ -20,7 +20,7 @@
     <div class="flex flex-col md:flex-row justify-center text-center md:text-left">
   <div class="max-w-screen-xl grid grid-cols-1 md:grid-cols-2 gap-4">
     <div class="col-span-1 flex justify-center items-center">
-      <img class="h-[338px] object-cover" src="@/assets/images/gallery1.jpg" alt="Gallery Image">
+      <img class="h-[338px] object-cover" src="../../assets/images/Start The journey.jpg" alt="Gallery Image">
     </div>
     <div class="text-center md:text-start">
       <h2 class="text-xl font-semibold relative inline-block after:content-[''] after:absolute after:w-full after:h-[3px] after:bg-[#DE5D0A] after:left-0 after:bottom-0 after:mt-1">
@@ -44,7 +44,7 @@
     <div class="flex flex-col lg:flex-row justify-center text-center lg:text-left lg:py-10">
   <div class="max-w-screen-xl grid grid-cols-1 lg:grid-cols-2 gap-4">
     <div class="flex justify-center items-center lg:items-start">
-      <img class="h-[338px] object-cover" src="@/assets/images/gallery1.jpg" alt="Gallery Image">
+      <img class="h-[338px] object-cover" src="../../assets/images/At the seaplane terminal.jpg" alt="Gallery Image">
     </div>
     <div class="text-center lg:text-left">
       <h2 class="text-xl font-semibold relative inline-block after:content-[''] after:absolute after:w-full after:h-[3px] after:bg-[#DE5D0A] after:left-0 after:bottom-0 after:mt-1">
@@ -62,7 +62,7 @@
     <div class="flex flex-col lg:flex-row justify-center text-center lg:text-left lg:py-10">
     <div class="max-w-screen-xl grid grid-cols-1 lg:grid-cols-2 gap-4">
         <div class="flex justify-center items-center lg:items-start">
-            <img class="h-[338px] object-cover" src="@/assets/images/gallery1.jpg" alt="">
+            <img class="h-[338px] object-cover" src="../../assets/images/At the seaplane.jpg" alt="">
         </div>
         <div class="text-center lg:text-left">
             <h2 class="text-xl font-semibold relative inline-block after:content-[''] after:absolute after:w-full after:h-[3px] after:bg-[#DE5D0A] after:left-0 after:bottom-0 after:mt-1">At the seaplane</h2>
@@ -77,7 +77,7 @@
     <div class="flex flex-col lg:flex-row justify-center text-center lg:text-left lg:py-10">
     <div class="max-w-screen-xl grid grid-cols-1 lg:grid-cols-2 gap-4">
         <div class="flex justify-center items-center lg:items-start">
-            <img class="h-[338px] w-[480px] pt-3" src="@/assets/images/gallery1.jpg" alt="">
+            <img class="h-[338px] w-[480px] pt-3" src="../../assets/images/ON THE SEAPLANE.jpg" alt="">
         </div>
         <div class="text-center lg:text-left">
             <h2 class="text-xl font-semibold relative inline-block after:content-[''] after:absolute after:w-full after:h-[3px] after:bg-[#DE5D0A] after:left-0 after:bottom-0 after:mt-1">ON THE SEAPLANE</h2>

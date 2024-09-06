@@ -3,7 +3,7 @@
       <div class="bg-white w-full flex justify-center text-center p-16">
         <!-- QR Code Image - Hidden on small screens -->
         <div class="hidden md:block">
-          <img class="w-24" src="../../assets/images/downloadQR.png" alt="QR code" />
+          <img class="w-24" src="../../assets/images/qr code-12.png" alt="QR code" />
         </div>
         <div class="px-6">
           <div>
@@ -15,7 +15,7 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img class="w-44 py-4" src="../../assets/images/appStore.png" alt="App Store" />
+              <img class="w-44 py-4" src="../../assets/images/qr code-13.png" alt="App Store" />
             </a>
           </div>
         </div>
@@ -25,7 +25,7 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img class="w-44 pt-11" src="../../assets/images/GooglePlay.png" alt="Play Store" />
+            <img class="w-44 pt-11" src="../../assets/images/qr code-14.png" alt="Play Store" />
           </a>
         </div>
       </div>

@@ -1,10 +1,10 @@
 <template>
     <div>
 <div>
-    <img class="w-full h-[400px] object-cover" src="../../assets/images/about.jpg"/>
+    <img class="w-full h-auto object-cover" src="../../assets/images/Customer Support1.jpg"/>
 </div>
 <div class="flex justify-center items-center">
-    <p class="text-2xl font-semibold inline-block after:content-[''] after:absolute after:w-full after:h-[3px] after:bg-[#DE5D0A] after:left-0 after:bottom-0 after:mt-1 absolute top-64 text-white">Customer Support</p>
+    <p class="text-2xl font-semibold inline-block after:content-[''] after:absolute after:w-full after:h-[3px] after:bg-[#DE5D0A] after:left-0 after:bottom-0 after:mt-1 absolute lg:top-[50%] md:top-[40%] text-white">Customer Support</p>
 </div>
 <div class="flex justify-center text-center">
 <div class=" max-w-screen-xl grid flex-wrap grid-cols-3 gap-4 text-start">
@@ -36,3 +36,11 @@
 <script>
 
 </script>
+<style>
+@media (max-width: 768px) {
+     .absolute{
+        top: 150px;
+    }
+}
+   
+</style>
